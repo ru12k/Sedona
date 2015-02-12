@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="27px" height="33px">
+<filter id="filter0" x="0.00%" y="0.00%" width="100.00%" height="100.00%" filterUnits="objectBoundingBox">
+<feFlood result="coFloodOut" flood-color="rgb(129,179,209)"/>
+<feComposite in="coFloodOut" in2="SourceAlpha" result="coOverlay" operator="atop"/>
+<feComponentTransfer in="coOverlay" result="colorOverlay">
+<feFuncA type="linear" slope="1.00"/>
+</feComponentTransfer>
+<feMerge>
+<feMergeNode in="colorOverlay"/>
+</feMerge>
+</filter>
+<mask id="mask0">
+<image x="0.00" y="0.00" width="27.00" height="33.00" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAhCAAAAAANXo9CAAAABGdBTUEAALGPC/xhBQAAAAJiS0dE
+AP+Hj8y/AAAA8UlEQVQoz7WSbQHEIAiGjbAIRlgEIhjBCItAg0UwghGIYAQiEIHD28c5zvt5/FKe
+jRdeDOEKgA0REyxhSCFWYh2CqSKCfaTP7HDBJ8OzdqE2ZWfQ/xnlMGdS1hCmjPMSwpQVCF9xsZZ/
+M1OLv5kWKWcyYnWMEbDPAFUFHYPSp8isvK3Zz2e5Ilohk5JjKZHKviJb09HrWc7qqtVt/j+C3Kyh
+dRc7fntNqTe5x9kemEdb/f4kT31xu12wX2jGsliRZC6xZ9C6wYfyJiOLtfd8P4Jlv1kXUk7jtuIh
+i2b2uYcx3rLyEXrGW5YmT+eQ5cfDeQGgBsvoBo4QmQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNS0w
+Mi0xMVQyMjoyMzo0NiswMDowMLl5vMgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTUtMDItMTFUMjI6
+MjM6NDYrMDA6MDDIJAR0AAAAAElFTkSuQmCC"/>
+</mask>
+<defs>
+<image id="symbol0" x="0.00" y="0.00" width="27.00" height="33.00" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAhCAMAAAAf6yCsAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAAAjHyAjHyAjHyAj
+HyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyAjHyD///+S70ejAAAAEHRSTlMAQHCA
+UBCvv9+fz2DvMCCPPhGlhwAAAAFiS0dEEeK1PboAAADfSURBVCjPtZJLAsMgCEQlGEEhhvuftth8
+aqxdlpXyEgYGQ7gCYEHECGvoUoiJ2LpgSojgH9kz213wyfCsnalM2Rn0f0YS5kzzFsKUsawhTFmG
+8BUXK/KbuVr9zSxrPpMV08AYAdsMkExxYJDbFMLGyybjfJ7LagmEjAYWI5nuG7I3XUc9z3ld87pl
+/I9Aije07erHb68ptib3OtsDc2/ruD+VqS/DbldsF5oxUS8S3SUeGZRm8KG8aM9qaj3fj2Ddb9aE
+jGO/rXrIopt97qGPt6x+hJ7xlqXJ0zlk+fFwXg7+GwQhqlOmAAAAJXRFWHRkYXRlOmNyZWF0ZQAy
+MDE1LTAyLTExVDIyOjIzOjQ2KzAwOjAwuXm8yAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNS0wMi0x
+MVQyMjoyMzo0NiswMDowMMgkBHQAAAAASUVORK5CYII="/>
+</defs>
+<g>
+<use xlink:href="#symbol0"/>
+<g mask="url(#mask0)"/>
+<use xlink:href="#symbol0" filter="url(#filter0)"/>
+</g>
+</svg>
