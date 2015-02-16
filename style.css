@@ -663,6 +663,18 @@ label[for="counter-child"] {
     border-bottom:  2px solid #fff;
     border-left: 2px solid #fff;
     border-radius: 3px;
+    position: relative;
+}
+
+.column-range-1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    background: url(/Images/vline.png);
+    top: 10%;
+    left: 99%;
 }
 
 .column-range-2 {
@@ -838,9 +850,9 @@ label[for="counter-child"] {
     margin-top: 40px; 
     padding: 0 17px;
     font-family: "PT Sans";
-    color:  #fff;
+    color:  #666;
     font-size: 14px; 
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
     vertical-align: top;
     text-decoration: none;
